@@ -12,8 +12,8 @@
         D=M
         @WHITEN
         D;JEQ   
-	      //@BLACKEN
-	      //D;JGT
+	//@BLACKEN
+	//D;JGT
 
 	(BLACKEN)
         @i
@@ -21,8 +21,8 @@
         @SCREEN
         A=A+D   
         M=-1  
-	      @i
-	      M=M+1  
+	@i
+      	M=M+1  
         @END
         0;JMP   
 
@@ -32,10 +32,10 @@
         @SCREEN
         A=A+D   
         M=0     
-	      @i
-	      M=M+1
-	      @END
-	      0;JMP
+      	@i
+      	M=M+1
+      	@END
+      	0;JMP
 
 	(END)   
         @i
